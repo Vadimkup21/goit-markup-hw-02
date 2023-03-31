@@ -1,9 +1,10 @@
 body {
-  font-family: Roboto, sens-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 :root {
+    --menu-color:#2E2F42;
 }
 
 .header-nav {
@@ -15,6 +16,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  list-style: none;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -25,4 +27,16 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
+}
+
+.header-li{
+    
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+
+var(--menu-color)
 }
