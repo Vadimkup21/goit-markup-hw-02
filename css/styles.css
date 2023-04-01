@@ -153,6 +153,12 @@ body {
 
 /* section 2 */
 .second-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .title-page {
@@ -176,7 +182,7 @@ body {
 /* section 3 */
 /* section 4 */
 .team {
-  background-color: var(--color-cloud);
+  background-color: var(--color-white);
   color: var(--color-grey);
 }
 /* footer */
@@ -189,7 +195,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17x;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
