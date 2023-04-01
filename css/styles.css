@@ -122,7 +122,7 @@ body {
 }
 .btn {
   background-color: var(--color-iris);
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -148,6 +148,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  background-color: var(--color-white);
 }
 
 /* section 2 */
