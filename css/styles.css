@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 :root {
-    --menu-color:#2E2F42;
+  --menu-color: #422e35;
 }
 
 .header-nav {
@@ -29,14 +29,11 @@ body {
   text-decoration: none;
 }
 
-.header-li{
-    
+.header-li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-
-
-var(--menu-color)
+  color: var(--menu-color);
 }
