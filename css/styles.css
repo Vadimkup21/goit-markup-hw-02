@@ -83,3 +83,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+.footer {
+  background-color: var(--color-navy-blue);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-cloud);
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+  text-decoration: none;
+}
