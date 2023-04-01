@@ -4,6 +4,9 @@ body {
   background-color: #ffffff;
   size: 16px;
   letter-spacing: 0.02em;
+  position: relative;
+  width: 1440px;
+  height: 2592px;
 }
 :root {
   --color-iris: #4d5ae5;
@@ -104,17 +107,37 @@ body {
 }
 
 /* section 1 */
+.first-section {
+  background-color: var(--color-grey);
+}
 .title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
+  color: var(--color-white);
 }
+.btn {
+  background-color: var(--color-iris);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
+
 .title-header {
   font-family: "Roboto";
   font-style: normal;
