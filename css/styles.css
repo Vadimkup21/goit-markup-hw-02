@@ -202,9 +202,7 @@ body {
   background-color: var(--color-cloud);
   color: var(--color-grey);
 }
-.team-list {
-  background-color: var(--color-white);
-}
+
 .section-img {
   background-color: #ffffff;
 }
