@@ -205,6 +205,9 @@ body {
 .team-list {
   background-color: var(--color-white);
 }
+.section-img {
+  background-color: #ffffff;
+}
 /* footer */
 .footer {
   background-color: var(--color-navy-blue);
