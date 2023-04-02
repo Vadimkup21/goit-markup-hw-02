@@ -185,7 +185,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-
+.title-hidden {
+}
 .title-page {
   font-family: "Roboto";
   font-style: normal;
