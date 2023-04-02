@@ -211,6 +211,9 @@ body {
   background-color: var(--color-cloud);
   color: var(--color-grey);
 }
+.team-list {
+  background-color: var(--color-white);
+}
 /* footer */
 .footer {
   background-color: var(--color-navy-blue);
