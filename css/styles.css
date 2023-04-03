@@ -53,11 +53,11 @@ body {
 .header-item {
 }
 .header-link {
-  color: var(--color-navy-blue);
-
   font-weight: 500;
   font-size: 16px;
   color: var(--color-navy-blue);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
