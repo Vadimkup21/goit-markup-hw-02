@@ -2,11 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
-  size: 16px;
-  letter-spacing: 0.02em;
-  position: relative;
-  width: 1440px;
-  height: 2592px;
+  font-size: 16px;
 }
 :root {
   --color-iris: #4d5ae5;
@@ -28,7 +24,6 @@ body {
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -53,18 +48,15 @@ body {
 }
 
 .site-nav {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
 }
 
 .header-item {
 }
 .header-link {
+  color: var(--color-navy-blue);
+
+  font-weight: 500;
+  font-size: 16px;
   color: var(--color-navy-blue);
 }
 
@@ -84,11 +76,8 @@ body {
   text-decoration: none;
 }
 .contacts {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
@@ -102,8 +91,6 @@ body {
   background-color: var(--color-grey);
 }
 .title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -114,12 +101,9 @@ body {
 .btn {
   background-color: var(--color-iris);
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
 }
@@ -155,8 +139,6 @@ body {
 }
 
 .title-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -169,18 +151,10 @@ body {
 
 /* section 2 */
 .second-section {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
 }
 .title-hidden {
 }
 .title-page {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -188,9 +162,6 @@ body {
   color: var(--color-navy-blue);
 }
 .info-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -224,11 +195,8 @@ body {
   color: var(--color-cloud);
 }
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   text-decoration: none;
